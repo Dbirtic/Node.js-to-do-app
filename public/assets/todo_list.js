@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 
-    $(form).on('submit', function(){
+    $('form').on('submit', function(){
 
         let item = $('form input');
         let todo = {item: item.val()};
@@ -23,12 +23,12 @@ $(document).ready(function(){
     $('li').on('click', function(){
         var item = $(this).text().replace(/ /g, "-");
         $.ajax({
-            type: 'DELETE',
-            url: '/todo/' + item,
-            success: function(data){
-                // some code here please
-                location.reload();
-            }
+          type: 'DELETE',
+          url: '/todo/' + item,
+          success: function(data){
+            //do something with the data via front-end framework
+            location.reload();
+          }
         });
     });
 });
