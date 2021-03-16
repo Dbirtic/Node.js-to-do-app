@@ -1,0 +1,29 @@
+{
+  "name": "todo_app",
+  "version": "1.0.0",
+  "description": "A node.js todo application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dbirtic/Node.js-to-do-app.git"
+  },
+  "keywords": [
+    "todo",
+    "app"
+  ],
+  "author": "Dominik Birtić",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dbirtic/Node.js-to-do-app/issues"
+  },
+  "homepage": "https://github.com/Dbirtic/Node.js-to-do-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.0"
+  }
+}
